@@ -122,3 +122,35 @@ card:nth-of-type(3){
     margin-top: 2rem;
     margin-bottom: -2rem;
 }
+@media(max-width:1100px){
+    body{
+        height: fit-content;
+        justify-items: center;
+    }
+    /* main.page{
+        height: max-content;
+        width: auto;
+    } */
+   header{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+   }
+   cr-base{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   }
+   item:nth-of-type(1){
+    margin-left: 0rem;
+    }
+    item:nth-of-type(2){
+        margin-left: 0rem;
+    }
+    item:nth-of-type(3){
+        margin-left: 0rem;
+    }
+    section.text{
+        padding-right: 0rem;
+    }
+}
