@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    margin: 0 auto;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+main.page{
+    margin: 10rem;
+}
+rate{
+    display: grid;
+    justify-self: end;
+    height: fit-content;
+    align-self: center;
+}
+item:nth-of-type(1){
+    margin-left: 3rem;
+}
+item:nth-of-type(2){
+    margin-left: 6rem;
+}
+item:nth-of-type(3){
+    margin-left: 9rem;
+}
+item{
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    width: 500px;
+    border-radius: 0.5rem;
+    color: hsl(300, 43%, 22%);
+    font-size: 1.2rem;
+    font-weight: 700;
+    height: fit-content;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+p{
+    padding-left: 1.5rem;
+}
+item img{
+    padding-left: 0.5rem;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 5rem;
+}
+card{
+    display: grid;
+    width: 400px;
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+card-image{
+    display: flex;
+    align-items: end;
+}
+sub-text{
+    display: grid;
+    padding-left: 2rem;
+    margin-bottom: 5px;
+}
+cr-base{
+    display: flex;
+    gap: 2rem;
+}
+sub-text h3{
+    color: hsl(333, 80%, 67%);
+}
+
+card-image img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+section.text{
+    padding-right: 10rem;
+}
+h1{
+    font-size: 4rem;
+    color: hsl(300, 43%, 22%);
+}
+h2{
+    font-size: 1.2rem;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    padding-top: 2rem;
+    line-height: 1.7rem;
+}
+card h2{
+    color: #fff;
+    line-height: 1.7rem;
+    font-weight: 400;
+}
+sub-text h2{
+    font-weight: 700;
+}
+card:nth-of-type(2){
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+card:nth-of-type(3){
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+}
