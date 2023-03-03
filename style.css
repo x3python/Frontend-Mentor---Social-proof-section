@@ -127,19 +127,17 @@ card:nth-of-type(3){
         height: fit-content;
         justify-items: center;
     }
-    /* main.page{
-        height: max-content;
-        width: auto;
-    } */
    header{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
+    padding-bottom: 2rem;
    }
    cr-base{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 0.5rem;
    }
    item:nth-of-type(1){
     margin-left: 0rem;
@@ -153,4 +151,17 @@ card:nth-of-type(3){
     section.text{
         padding-right: 0rem;
     }
+    item{
+        width: 400px;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    main.page header h2{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+   
+
 }
