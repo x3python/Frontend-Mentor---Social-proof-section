@@ -62,7 +62,8 @@ header{
 }
 card{
     display: grid;
-    width: 400px;
+    justify-self: center;
+    width: 350px;
     background-color: hsl(300, 43%, 22%);
     color: #fff;
     border-radius: 0.5rem;
@@ -127,14 +128,14 @@ card:nth-of-type(3){
         height: auto;
         justify-items: center;
     }
-    /* main.page{
-        height: 100vh;
-    } */
    header{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     padding-bottom: 2rem;
+    width: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
    }
    cr-base{
     display: grid;
@@ -155,25 +156,29 @@ card:nth-of-type(3){
         padding-right: 0rem;
     }
     item{
-        width: 400px;
+        width: auto;
         display: grid;
-        justify-content: center;
-        padding: 1rem;
+        justify-items: center;
+        padding-left: none;
     }
     h1{
         text-align: center;
+        font-size: 3rem;
     }
     main.page header h2{
         text-align: center;
         padding-bottom: 2rem;
+        font-size: 1.4rem;
     }
     rate{
         display: grid;
+        justify-self: center;
     }
     section.stars{
         justify-self: center;
         padding-bottom: 0.7rem;
     }
+    
    
 
 }
