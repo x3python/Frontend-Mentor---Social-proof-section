@@ -21,7 +21,7 @@ body{
 main.page{
     margin: 10rem;
 }
-rate{
+rate-base{
     display: grid;
     justify-self: end;
     height: fit-content;
@@ -60,7 +60,7 @@ header{
     grid-template-columns: 1fr 1fr;
     padding-bottom: 5rem;
 }
-card{
+card-base{
     display: grid;
     justify-self: center;
     width: 350px;
@@ -107,7 +107,7 @@ h2{
     padding-top: 2rem;
     line-height: 1.7rem;
 }
-card h2{
+card-base h2{
     color: #fff;
     line-height: 1.7rem;
     font-weight: 400;
@@ -115,11 +115,11 @@ card h2{
 sub-text h2{
     font-weight: 700;
 }
-card:nth-of-type(2){
+card-base:nth-of-type(2){
     margin-top: 1rem;
     margin-bottom: -1rem;
 }
-card:nth-of-type(3){
+card-base:nth-of-type(3){
     margin-top: 2rem;
     margin-bottom: -2rem;
 }
@@ -170,7 +170,7 @@ card:nth-of-type(3){
         padding-bottom: 2rem;
         font-size: 1.4rem;
     }
-    rate{
+    rate-base{
         display: grid;
         justify-self: center;
     }
