@@ -124,9 +124,12 @@ card:nth-of-type(3){
 }
 @media(max-width:1100px){
     body{
-        height: fit-content;
+        height: auto;
         justify-items: center;
     }
+    /* main.page{
+        height: 100vh;
+    } */
    header{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -153,14 +156,23 @@ card:nth-of-type(3){
     }
     item{
         width: 400px;
+        display: grid;
+        justify-content: center;
+        padding: 1rem;
     }
-    
     h1{
         text-align: center;
     }
     main.page header h2{
         text-align: center;
         padding-bottom: 2rem;
+    }
+    rate{
+        display: grid;
+    }
+    section.stars{
+        justify-self: center;
+        padding-bottom: 0.7rem;
     }
    
 
